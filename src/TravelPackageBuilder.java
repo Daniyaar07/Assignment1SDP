@@ -4,5 +4,5 @@ public interface TravelPackageBuilder {
     TravelPackageBuilder setTransport(String transport);
     TravelPackageBuilder setDays(int days);
     TravelPackageBuilder setMealsIncluded(boolean mealsIncluded);
-    TravelPackageBuilder build();
+    TravelPackage build();
 }
