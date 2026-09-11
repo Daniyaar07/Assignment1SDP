@@ -12,4 +12,19 @@ public class TravelPackage {
         this.days = days;
         this.mealsIncluded = mealsIncluded;
     }
+    public String getDestination(){
+        return destination;
+    }
+    public String getHotel(){
+        return hotel;
+    }
+    public String getTransport(){
+        return transport;
+    }
+    public int getDays(){
+        return days;
+    }
+    public boolean isMealsIncluded(){
+        return mealsIncluded;
+    }
 }
