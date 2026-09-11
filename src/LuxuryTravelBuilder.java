@@ -15,4 +15,19 @@ public class LuxuryTravelBuilder implements TravelPackageBuilder{
         travelPackage.setTransport(transport);
         return this;
     }
+
+    @Override
+    public TravelPackageBuilder setDays(int days){
+        travelPackage.setDays(days);
+        return this;
+    }
+    @Override
+    public TravelPackageBuilder setMealsIncluded(boolean mealsIncluded){
+        travelPackage.setMealsIncluded(mealsIncluded);
+        return this;
+    }
+    @Override
+    public TravelPackage build(){
+        return travelPackage;
+    }
 }
