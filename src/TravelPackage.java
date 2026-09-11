@@ -27,4 +27,7 @@ public class TravelPackage {
     public boolean isMealsIncluded(){
         return mealsIncluded;
     }
+    public String toString(){
+        return "TravelPackage{" + "destination='" + destination + '\'' + ", hotel= '" + hotel + '\'' + " , transport='" + transport + '\'' + ", days=" + days + ", mealsIncluded=" + mealsIncluded + '}';
+    }
 }
